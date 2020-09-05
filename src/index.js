@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './components/App.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.css";
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

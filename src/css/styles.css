@@ -1,0 +1,49 @@
+/* body {
+	background: #d9e0e7;
+} */
+
+.pull-right {
+	float: right;
+}
+
+.iconText {
+	font-size: small;
+	margin: 0px;
+}
+
+.watermark {
+	opacity: .5;
+}
+
+.spaceContainer {
+	padding-top: 4.5rem;
+	padding-bottom: 6.5rem;
+}
+
+.btn-fab {
+	border-radius: 50%;
+	bottom: 5.5rem;
+	right: 2rem;
+}
+
+.dropdown-toggle::after {
+	display: none;
+}
+
+.panel{
+	height: 30rem;
+}
+
+/* @media (max-width: 575.98px) {
+	.spaceContainer {
+		padding-top: 18%;
+		padding-bottom: 30%;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.spaceContainer {
+		padding-top: 12%;
+		padding-bottom: 12%;
+	}
+} */
